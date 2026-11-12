@@ -199,3 +199,28 @@ footer.small { position: relative; z-index: 1; text-align: center; padding: 0 24
 @media (max-width: 360px) { .plugs { gap: 22px; } }
 
 .code.prose pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+
+/* ---------- AA Plug 2 link buttons: How to connect / Web version ---------- */
+.home .plug { width: clamp(150px, 40vw, 176px); display: flex; flex-direction: column; align-items: center; }
+.plug-btns { display: flex; flex-direction: column; gap: 8px; width: 100%; margin-top: 14px; }
+.pbtn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 40px; padding: 0 14px; border-radius: 8px;
+  border: 1px solid var(--line-2); background: #fff; color: var(--fg);
+  font: 500 13.5px/1 Geist, ui-sans-serif, system-ui, sans-serif; letter-spacing: .005em;
+  text-decoration: none; white-space: nowrap;
+  box-shadow: 0 1px 1px rgba(15, 23, 42, .04);
+  transition: border-color .15s ease, background .15s ease, color .15s ease, box-shadow .15s ease;
+}
+.pbtn .ar { font-family: var(--mono); font-size: .9em; color: var(--faint); transition: transform .18s ease, color .15s ease; }
+.pbtn:hover { border-color: rgba(15, 23, 42, .24); background: var(--soft); }
+.pbtn:hover .ar { color: var(--fg); transform: translateX(2px); }
+.pbtn-primary { background: #12998F; border-color: #12998F; color: #fff; }
+.pbtn-primary .ar { color: rgba(255, 255, 255, .8); }
+.pbtn-primary:hover { background: #08645E; border-color: #08645E; }
+.pbtn-primary:hover .ar { color: #fff; transform: translate(1px, -1px); }
+.pbtn:focus-visible { outline: 2px solid #12998F; outline-offset: 3px; }
+.intro-btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.intro-btns .pbtn { min-width: 150px; }
+@media (max-width: 420px) { .intro-btns .pbtn { flex: 1 1 0; min-width: 0; } }
+.plug .plug-btns .pbtn { flex-direction: row; gap: 8px; padding: 0 14px; border-radius: 8px; }

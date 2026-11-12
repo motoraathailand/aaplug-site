@@ -28,7 +28,7 @@
   <meta name="twitter:image" content="https://aaplug.com/icons/og.png">
   <link rel="preload" href="../fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="../fonts/geist-mono.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="../css/site.css?v=7">
+  <link rel="stylesheet" href="../css/site.css?v=8">
 </head>
 <body class="page theme-plug-2">
   <div class="grid" aria-hidden="true"></div>
@@ -41,10 +41,14 @@
         <div>
           <h1>AA Plug 2</h1>
           <p>Takes an app you already built to <b>Google Play</b> and the <b>App Store</b>. Connect it once, then you only pick and approve &mdash; nothing is submitted automatically.</p>
+          <div class="intro-btns">
+            <a class="pbtn pbtn-primary" href="/2/">Web version <span class="ar" aria-hidden="true">&#8599;</span></a>
+            <a class="pbtn" href="#connect">How to connect <span class="ar" aria-hidden="true">&darr;</span></a>
+          </div>
         </div>
       </section>
 
-      <h2 class="sec-label">How to connect</h2>
+      <h2 class="sec-label" id="connect">How to connect</h2>
       <div class="connect">
         <div class="tabs" role="tablist" aria-label="AI app"><button class="tab" role="tab" id="tab-grok" data-tab="grok" aria-controls="panel-grok" aria-selected="false" tabindex="-1"><span class="dot"></span>Grok Bot</button><button class="tab" role="tab" id="tab-claude" data-tab="claude" aria-controls="panel-claude" aria-selected="false" tabindex="-1"><span class="dot"></span>Claude</button><button class="tab" role="tab" id="tab-perplexity" data-tab="perplexity" aria-controls="panel-perplexity" aria-selected="false" tabindex="-1"><span class="dot"></span>Perplexity</button><button class="tab" role="tab" id="tab-cursor" data-tab="cursor" aria-controls="panel-cursor" aria-selected="false" tabindex="-1"><span class="dot"></span>Cursor</button></div>
         <div class="panel" role="tabpanel" id="panel-grok" aria-labelledby="tab-grok" hidden>
@@ -158,6 +162,6 @@
       </div>
     </div>
   </main>
-  <script src="../js/site.js?v=7"></script>
+  <script src="../js/site.js?v=8"></script>
 </body>
 </html>
