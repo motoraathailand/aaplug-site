@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="AA Plug 1">
+  <defs>
+    <linearGradient id="p1-bg" x1="96" y1="32" x2="424" y2="488" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7C8CFF"/>
+      <stop offset="1" stop-color="#3A3FCF"/>
+    </linearGradient>
+    <linearGradient id="p1-shine" x1="256" y1="24" x2="256" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="120" fill="url(#p1-bg)"/>
+  <rect width="512" height="512" rx="120" fill="url(#p1-shine)"/>
+  <rect x="176" y="86" width="52" height="118" rx="26" fill="#fff"/>
+  <rect x="284" y="86" width="52" height="118" rx="26" fill="#fff"/>
+  <path fill="#fff" d="M146 196c0-28 22-50 50-50h120c28 0 50 22 50 50v148c0 56-48 100-110 100h0c-62 0-110-44-110-100V196z"/>
+  <path fill="#3A3FCF" transform="matrix(0.112752 0 0 -0.112752 208.532 412.000)" d="M748.5761108398438 1490V0H444.40087890625V1221.123779296875H434.40087890625L92.7601318359375 979.5027465820312V1259.0996704101562L422.159912109375 1490Z"/>
+</svg>
