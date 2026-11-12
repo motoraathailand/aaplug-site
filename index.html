@@ -110,7 +110,7 @@
       display: flex;
       align-items: flex-start;
       justify-content: center;
-      gap: clamp(28px, 7vw, 64px);
+      gap: clamp(24px, 6vw, 52px);
     }
     .plug {
       display: flex;
@@ -120,7 +120,7 @@
     }
     .plug img {
       display: block;
-      width: clamp(72px, 18vw, 96px);
+      width: clamp(56px, 14vw, 80px);
       height: auto;
       border-radius: 0;
       image-rendering: pixelated;
@@ -130,11 +130,24 @@
         drop-shadow(0 1px 1px rgba(15, 23, 42, .05))
         drop-shadow(0 10px 24px rgba(15, 23, 42, .10));
     }
-    .plug span {
+    .plug .label {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.28rem;
+    }
+    .plug .name {
       font-size: clamp(.85rem, 2.2vw, .95rem);
       font-weight: 560;
       letter-spacing: .01em;
       color: var(--fg);
+    }
+    .plug .note {
+      font-size: clamp(.68rem, 1.8vw, .75rem);
+      font-weight: 450;
+      letter-spacing: .01em;
+      color: var(--muted);
+      line-height: 1.3;
     }
     @media (max-width: 360px) {
       .plugs { gap: 22px; }
@@ -148,12 +161,17 @@
     <h1>AA Plug</h1>
     <ul class="plugs">
       <li class="plug plug-1">
-        <img src="icons/aa-plug-1.svg" width="96" height="96" alt="AA Plug 1" draggable="false">
-        <span>AA Plug 1</span>
+        <img src="icons/aa-plug-1.svg" width="80" height="80" alt="AA Plug 1" draggable="false">
+        <div class="label">
+          <span class="name">AA Plug 1</span>
+          <span class="note">(for personal use)</span>
+        </div>
       </li>
       <li class="plug plug-2">
-        <img src="icons/aa-plug-2.svg" width="96" height="96" alt="AA Plug 2" draggable="false">
-        <span>AA Plug 2</span>
+        <img src="icons/aa-plug-2.svg" width="80" height="80" alt="AA Plug 2" draggable="false">
+        <div class="label">
+          <span class="name">AA Plug 2</span>
+        </div>
       </li>
     </ul>
   </main>
