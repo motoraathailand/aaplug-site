@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>AA Plug 2 &middot; How to connect</title>
+  <meta name="description" content="AA Plug 2 takes an app you already built to Google Play and the App Store. Connect it to Grok Bot, Claude, Perplexity, or Cursor.">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="color-scheme" content="light">
+  <link rel="canonical" href="https://aaplug.com/plug-2/">
+  <link rel="icon" href="../icons/favicon.svg?v=6" type="image/svg+xml">
+  <link rel="icon" href="../icons/favicon-32.png?v=6" type="image/png" sizes="32x32">
+  <link rel="icon" href="../icons/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-touch-icon.png?v=6">
+  <link rel="manifest" href="../manifest.json">
+  <meta property="og:site_name" content="AA Plug">
+  <meta property="og:title" content="AA Plug 2 · How to connect">
+  <meta property="og:description" content="AA Plug 2 takes an app you already built to Google Play and the App Store. Connect it to Grok Bot, Claude, Perplexity, or Cursor.">
+  <meta property="og:url" content="https://aaplug.com/plug-2/">
+  <meta property="og:image" content="https://aaplug.com/icons/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AA Plug 2 · How to connect">
+  <meta name="twitter:description" content="AA Plug 2 takes an app you already built to Google Play and the App Store. Connect it to Grok Bot, Claude, Perplexity, or Cursor.">
+  <meta name="twitter:image" content="https://aaplug.com/icons/og.png">
+  <link rel="preload" href="../fonts/geist.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fonts/geist-mono.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../css/site.css?v=7">
+</head>
+<body class="page theme-plug-2">
+  <div class="grid" aria-hidden="true"></div>
+  <header><a class="mark" href="../">AA MCP Plugins for AI users</a></header>
+  <main>
+    <div class="wrap">
+      <a class="crumb" href="../">&larr; All plugins</a>
+      <section class="intro">
+        <img class="pix" src="../icons/aa-plug-2.svg" width="64" height="64" alt="" draggable="false">
+        <div>
+          <h1>AA Plug 2</h1>
+          <p>Takes an app you already built to <b>Google Play</b> and the <b>App Store</b>. Connect it once, then you only pick and approve &mdash; nothing is submitted automatically.</p>
+        </div>
+      </section>
+
+      <h2 class="sec-label">How to connect</h2>
+      <div class="connect">
+        <div class="tabs" role="tablist" aria-label="AI app"><button class="tab" role="tab" id="tab-grok" data-tab="grok" aria-controls="panel-grok" aria-selected="false" tabindex="-1"><span class="dot"></span>Grok Bot</button><button class="tab" role="tab" id="tab-claude" data-tab="claude" aria-controls="panel-claude" aria-selected="false" tabindex="-1"><span class="dot"></span>Claude</button><button class="tab" role="tab" id="tab-perplexity" data-tab="perplexity" aria-controls="panel-perplexity" aria-selected="false" tabindex="-1"><span class="dot"></span>Perplexity</button><button class="tab" role="tab" id="tab-cursor" data-tab="cursor" aria-controls="panel-cursor" aria-selected="false" tabindex="-1"><span class="dot"></span>Cursor</button></div>
+        <div class="panel" role="tabpanel" id="panel-grok" aria-labelledby="tab-grok" hidden>
+<div class="opt">
+  <h3 class="opt-h">Ask in a chat <span class="tag">EASIEST</span></h3>
+  <div class="code prose"><pre id="g-ask">Add an MCP server. Name AA Plug 2, command npx, arguments -y aaplug2-mcp</pre><button class="copy" type="button" data-copy="g-ask" aria-label="Copy"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="5.5" y="5.5" width="8" height="8" rx="1.5"/><path d="M10.5 5.5V3.8c0-.7-.6-1.3-1.3-1.3H3.8c-.7 0-1.3.6-1.3 1.3v5.4c0 .7.6 1.3 1.3 1.3h1.7"/></svg><span class="t">Copy</span></button></div>
+</div>
+<div class="opt">
+  <h3 class="opt-h">Or add it yourself</h3>
+  <ol class="steps">
+    <li><span class="path">Connect apps<span class="sep">&rarr;</span>Add a custom connector</span> <span style="color:var(--muted)">(sidebar)</span></li>
+    <li>
+      <dl class="fields">
+        <dt>Type</dt><dd><code class="i">Command</code></dd>
+        <dt>Command</dt><dd><code class="i">npx</code></dd>
+        <dt>Arguments</dt><dd><code class="i">-y aaplug2-mcp</code></dd>
+      </dl>
+    </li>
+  </ol>
+  <p class="hint">Not in the Grok Bot Marketplace yet. Once it&rsquo;s listed, you&rsquo;ll also be able to add it from Connect apps.</p>
+</div>
+<div class="opt">
+  <h3 class="opt-h">Then</h3>
+  <p>Tell the Bot <b style="color:var(--fg);font-weight:560">&ldquo;Help me launch my app&rdquo;</b> and give it a public GitHub URL &mdash; or try the sample.</p>
+</div></div><div class="panel" role="tabpanel" id="panel-claude" aria-labelledby="tab-claude" hidden>
+<div class="opt">
+  <h3 class="opt-h">Claude Code <span class="tag">TERMINAL</span></h3>
+  <div class="code"><pre id="c-code"><span class="p">$ </span>claude mcp add aaplug2 -- npx -y aaplug2-mcp</pre><button class="copy" type="button" data-copy="c-code" aria-label="Copy"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="5.5" y="5.5" width="8" height="8" rx="1.5"/><path d="M10.5 5.5V3.8c0-.7-.6-1.3-1.3-1.3H3.8c-.7 0-1.3.6-1.3 1.3v5.4c0 .7.6 1.3 1.3 1.3h1.7"/></svg><span class="t">Copy</span></button></div>
+</div>
+<div class="opt">
+  <h3 class="opt-h">Claude Desktop <span class="tag">MAC &middot; WINDOWS</span></h3>
+  <ol class="steps">
+    <li><span class="path">Settings<span class="sep">&rarr;</span>Developer<span class="sep">&rarr;</span>Edit Config</span>, then add this to <code class="i">claude_desktop_config.json</code>:
+      <div class="code"><pre id="c-desk" data-raw='{
+  "mcpServers": {
+    "aaplug2": { "command": "npx", "args": ["-y", "aaplug2-mcp"] }
+  }
+}'>{
+  <span class="k">"mcpServers"</span>: {
+    <span class="k">"aaplug2"</span>: {
+      <span class="k">"command"</span>: <span class="s">"npx"</span>,
+      <span class="k">"args"</span>: [<span class="s">"-y"</span>, <span class="s">"aaplug2-mcp"</span>]
+    }
+  }
+}</pre><button class="copy" type="button" data-copy="c-desk" aria-label="Copy"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="5.5" y="5.5" width="8" height="8" rx="1.5"/><path d="M10.5 5.5V3.8c0-.7-.6-1.3-1.3-1.3H3.8c-.7 0-1.3.6-1.3 1.3v5.4c0 .7.6 1.3 1.3 1.3h1.7"/></svg><span class="t">Copy</span></button></div>
+    </li>
+    <li>Fully quit Claude and open it again.</li>
+  </ol>
+</div>
+<div class="opt">
+  <h3 class="opt-h">claude.ai <span class="tag">WEB &middot; MOBILE</span></h3>
+  <ol class="steps">
+    <li><span class="path">Customize<span class="sep">&rarr;</span>Connectors<span class="sep">&rarr;</span>Add custom connector</span></li>
+    <li>Paste the public server address:<div class="pending"><span class="url">https://&hellip;/mcp</span><span class="badge">Not live yet</span></div><p class="hint">The public address will appear here once the AA Plug 2 server is online. Until then, use the desktop option above &mdash; a cloud app can&rsquo;t reach <code class="i">127.0.0.1</code> on your computer.</p></li>
+  </ol>
+</div></div><div class="panel" role="tabpanel" id="panel-perplexity" aria-labelledby="tab-perplexity" hidden>
+<div class="opt">
+  <h3 class="opt-h">Mac app <span class="tag">LOCAL</span></h3>
+  <ol class="steps">
+    <li>Install the PerplexityXPC helper first, as described in <a class="hint-a" href="https://www.perplexity.ai/help-center/en/articles/11502712-local-and-remote-mcps-for-perplexity" style="text-underline-offset:3px">Perplexity Help</a>.</li>
+    <li><span class="path">Plugins<span class="sep">&rarr;</span>Add custom</span>, add an MCP connector with this command:
+      <div class="code"><pre id="p-mac">npx -y aaplug2-mcp</pre><button class="copy" type="button" data-copy="p-mac" aria-label="Copy"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="5.5" y="5.5" width="8" height="8" rx="1.5"/><path d="M10.5 5.5V3.8c0-.7-.6-1.3-1.3-1.3H3.8c-.7 0-1.3.6-1.3 1.3v5.4c0 .7.6 1.3 1.3 1.3h1.7"/></svg><span class="t">Copy</span></button></div>
+    </li>
+  </ol>
+</div>
+<div class="opt">
+  <h3 class="opt-h">Web &amp; other apps <span class="tag">REMOTE</span></h3>
+  <ol class="steps">
+    <li><span class="path">Plugins<span class="sep">&rarr;</span>Add custom<span class="sep">&rarr;</span>Add MCP connector<span class="sep">&rarr;</span>Remote</span></li>
+    <li>
+      <dl class="fields">
+        <dt>Name</dt><dd><code class="i">AA Plug 2</code></dd>
+        <dt>URL</dt><dd style="min-width:0"><div class="pending"><span class="url">https://&hellip;/mcp</span><span class="badge">Not live yet</span></div></dd>
+        <dt>Transport</dt><dd><code class="i">Streamable HTTP</code></dd>
+        <dt>Authentication</dt><dd><code class="i">None</code></dd>
+      </dl>
+      <p class="hint">The URL will appear here once the public server is online. Until then, use the Mac app.</p>
+    </li>
+  </ol>
+</div></div><div class="panel" role="tabpanel" id="panel-cursor" aria-labelledby="tab-cursor" hidden>
+<div class="opt">
+  <h3 class="opt-h">mcp.json</h3>
+  <ol class="steps">
+    <li>Add this to <code class="i">.cursor/mcp.json</code> in your project, or to <code class="i">~/.cursor/mcp.json</code> for all projects:
+      <div class="code"><pre id="cu-json" data-raw='{
+  "mcpServers": {
+    "aaplug2": { "command": "npx", "args": ["-y", "aaplug2-mcp"] }
+  }
+}'>{
+  <span class="k">"mcpServers"</span>: {
+    <span class="k">"aaplug2"</span>: {
+      <span class="k">"command"</span>: <span class="s">"npx"</span>,
+      <span class="k">"args"</span>: [<span class="s">"-y"</span>, <span class="s">"aaplug2-mcp"</span>]
+    }
+  }
+}</pre><button class="copy" type="button" data-copy="cu-json" aria-label="Copy"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="5.5" y="5.5" width="8" height="8" rx="1.5"/><path d="M10.5 5.5V3.8c0-.7-.6-1.3-1.3-1.3H3.8c-.7 0-1.3.6-1.3 1.3v5.4c0 .7.6 1.3 1.3 1.3h1.7"/></svg><span class="t">Copy</span></button></div>
+    </li>
+    <li>Approve the server the first time Cursor asks.</li>
+  </ol>
+</div></div>
+      </div>
+
+      <div class="after">
+        <span class="ic" aria-hidden="true">&rarr;</span>
+        <p>After that, just talk to your AI. <b>You only pick and approve.</b> You press Submit yourself in Play Console or App Store Connect.</p>
+      </div>
+
+      <div class="meta">
+        <span>Needs Node.js 20+ for npx</span>
+        <a href="https://www.npmjs.com/package/aaplug2-mcp">npm: aaplug2-mcp</a>
+        <a href="https://github.com/JaeTaekOh/aaplug2">Source on GitHub</a>
+      </div>
+    </div>
+  </main>
+  <script src="../js/site.js?v=7"></script>
+</body>
+</html>
