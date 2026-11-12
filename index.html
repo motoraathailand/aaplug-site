@@ -89,7 +89,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 24px 24px 8px;
+      padding: 24px 24px calc(32px + env(safe-area-inset-bottom));
       padding-left: max(24px, env(safe-area-inset-left));
       padding-right: max(24px, env(safe-area-inset-right));
     }
@@ -125,18 +125,6 @@
       letter-spacing: .01em;
       color: var(--fg);
     }
-    footer {
-      position: relative;
-      z-index: 1;
-      flex-shrink: 0;
-      padding: 16px 16px calc(24px + env(safe-area-inset-bottom));
-      text-align: center;
-      color: #94a3b8;
-      font-family: GeistMono, ui-monospace, monospace;
-      font-size: 11px;
-      font-weight: 500;
-      letter-spacing: .22em;
-    }
     @media (max-width: 360px) {
       .plugs { gap: 28px; }
     }
@@ -158,6 +146,5 @@
       </li>
     </ul>
   </main>
-  <footer>MOTOR AA</footer>
 </body>
 </html>
