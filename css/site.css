@@ -41,6 +41,19 @@ header .mark {
 }
 header a.mark { border-radius: 6px; padding: 2px 6px; margin: -2px -6px; transition: color .15s ease; }
 header a.mark:hover { color: var(--fg); }
+header .contact {
+  display: block;
+  margin-top: 6px;
+  font-family: var(--mono);
+  font-size: clamp(11px, 2.9vw, 12px);
+  font-weight: 450;
+  letter-spacing: .04em;
+  color: var(--muted);
+  text-decoration: none;
+  border-radius: 6px;
+  transition: color .15s ease;
+}
+header .contact:hover { color: var(--fg); }
 a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
 /* ---------- Home ---------- */
