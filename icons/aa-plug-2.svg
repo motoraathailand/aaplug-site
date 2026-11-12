@@ -1,18 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="AA Plug 2">
-  <defs>
-    <linearGradient id="p2-bg" x1="96" y1="32" x2="424" y2="488" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#3AD5C0"/>
-      <stop offset="1" stop-color="#0C8F86"/>
-    </linearGradient>
-    <linearGradient id="p2-shine" x1="256" y1="24" x2="256" y2="240" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#fff" stop-opacity=".22"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
-    </linearGradient>
-  </defs>
-  <rect width="512" height="512" rx="120" fill="url(#p2-bg)"/>
-  <rect width="512" height="512" rx="120" fill="url(#p2-shine)"/>
-  <rect x="176" y="86" width="52" height="118" rx="26" fill="#fff"/>
-  <rect x="284" y="86" width="52" height="118" rx="26" fill="#fff"/>
-  <path fill="#fff" d="M146 196c0-28 22-50 50-50h120c28 0 50 22 50 50v148c0 56-48 100-110 100h0c-62 0-110-44-110-100V196z"/>
-  <path fill="#0C8F86" transform="matrix(0.111258 0 0 -0.111258 184.350 412.000)" d="M123.76123046875 0V219.61663818359375L651.6998901367188 715.038330078125Q719.5805053710938 781.279296875 766.4808349609375 834.4299011230469Q813.3811645507812 887.5805053710938 837.8713073730469 939.0909118652344Q862.3614501953125 990.601318359375 862.3614501953125 1050.961669921875Q862.3614501953125 1117.6221313476562 832.1111755371094 1165.7124938964844Q801.8609008789062 1213.8028564453125 749.9304504394531 1239.7130432128906Q698 1265.6232299804688 630.95947265625 1265.6232299804688Q561.6188354492188 1265.6232299804688 509.91839599609375 1237.6029663085938Q458.21795654296875 1209.5827026367188 429.8877258300781 1157.6122741699219Q401.5574951171875 1105.641845703125 401.5574951171875 1032.9813842773438H110.48193359375Q110.48193359375 1178.4808349609375 176.61172485351562 1285.5005493164062Q242.74151611328125 1392.520263671875 360.70098876953125 1451.2601318359375Q478.66046142578125 1510 633.2595825195312 1510Q791.0985717773438 1510 908.9879455566406 1453.6900329589844Q1026.8773193359375 1397.3800659179688 1092.3970336914062 1298.2502746582031Q1157.916748046875 1199.1204833984375 1157.916748046875 1070.240966796875Q1157.916748046875 986.5410766601562 1125.4068908691406 905.7212524414062Q1092.8970336914062 824.9014282226562 1009.637451171875 724.6615600585938Q926.3778686523438 624.4216918945312 773.3187255859375 483.8817138671875L547.754638671875 261.61663818359375V250.69659423828125H1178.0569458007812V0Z"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" shape-rendering="crispEdges" role="img" aria-label="AA Plug 2">
+  <rect x="2" y="0" width="28" height="3" fill="#12998F"/>
+  <rect x="1" y="1" width="1" height="30" fill="#12998F"/>
+  <rect x="30" y="1" width="1" height="30" fill="#12998F"/>
+  <rect x="0" y="2" width="1" height="28" fill="#12998F"/>
+  <rect x="31" y="2" width="1" height="28" fill="#12998F"/>
+  <rect x="2" y="3" width="9" height="1" fill="#12998F"/>
+  <rect x="13" y="3" width="6" height="1" fill="#12998F"/>
+  <rect x="21" y="3" width="9" height="1" fill="#12998F"/>
+  <rect x="2" y="4" width="8" height="4" fill="#12998F"/>
+  <rect x="14" y="4" width="4" height="4" fill="#12998F"/>
+  <rect x="22" y="4" width="8" height="4" fill="#12998F"/>
+  <rect x="2" y="8" width="3" height="1" fill="#12998F"/>
+  <rect x="27" y="8" width="3" height="1" fill="#12998F"/>
+  <rect x="2" y="9" width="2" height="1" fill="#12998F"/>
+  <rect x="28" y="9" width="2" height="1" fill="#12998F"/>
+  <rect x="2" y="10" width="1" height="22" fill="#12998F"/>
+  <rect x="29" y="10" width="1" height="22" fill="#12998F"/>
+  <rect x="3" y="27" width="1" height="5" fill="#12998F"/>
+  <rect x="28" y="27" width="1" height="5" fill="#12998F"/>
+  <rect x="4" y="28" width="1" height="4" fill="#12998F"/>
+  <rect x="27" y="28" width="1" height="4" fill="#12998F"/>
+  <rect x="5" y="29" width="22" height="3" fill="#12998F"/>
+  <rect x="11" y="3" width="2" height="11" fill="#FFFFFF"/>
+  <rect x="19" y="3" width="2" height="11" fill="#FFFFFF"/>
+  <rect x="10" y="4" width="1" height="25" fill="#FFFFFF"/>
+  <rect x="13" y="4" width="1" height="8" fill="#FFFFFF"/>
+  <rect x="18" y="4" width="1" height="8" fill="#FFFFFF"/>
+  <rect x="21" y="4" width="1" height="25" fill="#FFFFFF"/>
+  <rect x="5" y="8" width="5" height="21" fill="#FFFFFF"/>
+  <rect x="14" y="8" width="4" height="4" fill="#FFFFFF"/>
+  <rect x="22" y="8" width="5" height="21" fill="#FFFFFF"/>
+  <rect x="4" y="9" width="1" height="19" fill="#FFFFFF"/>
+  <rect x="27" y="9" width="1" height="19" fill="#FFFFFF"/>
+  <rect x="3" y="10" width="1" height="17" fill="#FFFFFF"/>
+  <rect x="28" y="10" width="1" height="17" fill="#FFFFFF"/>
+  <rect x="13" y="14" width="6" height="4" fill="#FFFFFF"/>
+  <rect x="11" y="16" width="2" height="6" fill="#FFFFFF"/>
+  <rect x="13" y="18" width="2" height="2" fill="#FFFFFF"/>
+  <rect x="19" y="18" width="2" height="6" fill="#FFFFFF"/>
+  <rect x="15" y="20" width="4" height="4" fill="#FFFFFF"/>
+  <rect x="13" y="22" width="2" height="2" fill="#FFFFFF"/>
+  <rect x="11" y="26" width="10" height="3" fill="#FFFFFF"/>
+  <rect x="13" y="12" width="6" height="2" fill="#08645E"/>
+  <rect x="11" y="14" width="2" height="2" fill="#08645E"/>
+  <rect x="19" y="14" width="2" height="4" fill="#08645E"/>
+  <rect x="15" y="18" width="4" height="2" fill="#08645E"/>
+  <rect x="13" y="20" width="2" height="2" fill="#08645E"/>
+  <rect x="11" y="22" width="2" height="4" fill="#08645E"/>
+  <rect x="13" y="24" width="8" height="2" fill="#08645E"/>
 </svg>
