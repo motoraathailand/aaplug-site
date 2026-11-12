@@ -62,7 +62,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
   padding: 24px 24px calc(32px + env(safe-area-inset-bottom));
 }
 h1.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
-.plugs { list-style: none; margin: 0; padding: 0; display: flex; align-items: flex-start; justify-content: center; gap: clamp(24px, 6vw, 52px); }
+.plugs { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: center; gap: clamp(20px, 4.5vw, 44px); }
 .plug a, .plug .item {
   display: flex; flex-direction: column; align-items: center; gap: .9rem;
   border-radius: 12px; padding: 10px 8px 8px;
@@ -209,7 +209,10 @@ footer.small { position: relative; z-index: 1; text-align: center; padding: 0 24
   .copy .t { display: none; }
   .code pre { white-space: pre-wrap; overflow-wrap: break-word; font-size: 12.25px; }
 }
-@media (max-width: 360px) { .plugs { gap: 22px; } }
+@media (max-width: 520px) {
+  .plugs { display: grid; grid-template-columns: repeat(2, auto); gap: 22px 28px; justify-content: center; }
+  .plug .pix { width: clamp(56px, 22vw, 72px); }
+}
 
 .code.prose pre { white-space: pre-wrap; overflow-wrap: anywhere; }
 
