@@ -196,3 +196,16 @@ textarea:focus { border-color: var(--brand); }
   .ad-lg { --w: 300px; --h: 250px; --size: "300 \00D7  250"; }
   .ad { margin: 22px auto; }
 }
+
+/* ---------- AdSense banner slot (one per page, does not cover content) ---------- */
+.slot {
+  position: relative;
+  z-index: 1;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 728px;
+  margin: 0 auto;
+  padding: 8px 16px;
+  min-height: 90px;
+  overflow: hidden;
+}

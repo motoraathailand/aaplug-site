@@ -2,6 +2,6 @@
 window.AAP_CONFIG = {
   operator: '',
   feedbackEmail: '',  /* 시안: 연락처는 공개 전 확정 */
-  /* 광고 자리 표시만 (실제 광고 네트워크 연결 없음). 정식 공개 전 끄려면 false */
-  showAdSlotPlaceholder: true
+  /* 실제 배너는 index.html에 1칸. 화면 안 자리 표시(Advertisement 문구)는 끔 */
+  showAdSlotPlaceholder: false
 };
