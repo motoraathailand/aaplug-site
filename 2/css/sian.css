@@ -201,6 +201,7 @@ textarea:focus { border-color: var(--brand); }
 .slot {
   position: relative;
   z-index: 1;
+  isolation: isolate;
   flex-shrink: 0;
   width: 100%;
   max-width: 728px;
@@ -209,3 +210,4 @@ textarea:focus { border-color: var(--brand); }
   min-height: 90px;
   overflow: hidden;
 }
+.top { z-index: 40; }
